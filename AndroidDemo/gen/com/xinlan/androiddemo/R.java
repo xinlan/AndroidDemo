@@ -29,30 +29,46 @@ public final class R {
         public static final int check_left_btn=0x7f020001;
         public static final int check_right_btn=0x7f020002;
         public static final int check_single_btn=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int left_btn=0x7f020005;
-        public static final int left_btn_select=0x7f020006;
-        public static final int right_btn=0x7f020007;
-        public static final int right_btn_select=0x7f020008;
-        public static final int single_btn=0x7f020009;
-        public static final int single_btn_select=0x7f02000a;
+        public static final int group_default=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int left_btn=0x7f020006;
+        public static final int left_btn_select=0x7f020007;
+        public static final int right_btn=0x7f020008;
+        public static final int right_btn_select=0x7f020009;
+        public static final int single_btn=0x7f02000a;
+        public static final int single_btn_select=0x7f02000b;
+        public static final int tree_down=0x7f02000c;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000a;
-        public static final int cancel_btn=0x7f090005;
-        public static final int confirm_btn=0x7f090009;
+        public static final int action_settings=0x7f090015;
+        public static final int cancel_btn=0x7f090007;
+        public static final int confirm_btn=0x7f09000b;
         public static final int custom_dialog_btn=0x7f090001;
+        public static final int fragment_tree=0x7f090003;
+        public static final int groupName=0x7f090012;
+        public static final int grouporpeople=0x7f090010;
         public static final int hello_world=0x7f090000;
-        public static final int layout=0x7f090002;
-        public static final int message=0x7f090004;
-        public static final int neutral_btn=0x7f090007;
-        public static final int second_line=0x7f090008;
-        public static final int single_line=0x7f090006;
-        public static final int title=0x7f090003;
+        public static final int isExpand=0x7f090013;
+        public static final int layout=0x7f090004;
+        public static final int message=0x7f090006;
+        public static final int neutral_btn=0x7f090009;
+        public static final int scrollview_book=0x7f09000c;
+        public static final int second_line=0x7f09000a;
+        public static final int single_line=0x7f090008;
+        public static final int title=0x7f090005;
+        public static final int tree_btn=0x7f090002;
+        public static final int tree_child=0x7f090014;
+        public static final int tree_item=0x7f090011;
+        public static final int tree_node_item=0x7f09000f;
+        public static final int tree_view=0x7f09000d;
+        public static final int tree_view_border=0x7f09000e;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int dialog_customdialog=0x7f030001;
+        public static final int activity_tree=0x7f030001;
+        public static final int dialog_customdialog=0x7f030002;
+        public static final int frag_tree=0x7f030003;
+        public static final int tree_nodetem=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f080000;

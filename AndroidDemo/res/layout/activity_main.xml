@@ -21,4 +21,12 @@
         android:layout_height="wrap_content"
         android:text="自定义弹出框"
         />
+    
+     <Button 
+        android:id="@+id/tree_btn"
+        android:layout_below="@id/custom_dialog_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="树"
+        />
 </RelativeLayout>

@@ -16,6 +16,12 @@
         <activity
             android:name="com.xinlan.androiddemo.MainActivity"
             android:label="@string/app_name" >
+            
+        </activity>
+        
+         <activity
+            android:name="com.xinlan.androiddemo.ui.activity.TreeActivity"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

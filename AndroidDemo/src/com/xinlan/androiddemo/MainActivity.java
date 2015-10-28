@@ -1,10 +1,13 @@
 package com.xinlan.androiddemo;
 
+import com.xinlan.androiddemo.ui.activity.TreeActivity;
+import com.xinlan.androiddemo.ui.fragment.TreeFragment;
 import com.xinlan.androiddemo.ui.widget.CustomDialog;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -33,6 +36,9 @@ public class MainActivity extends Activity implements OnClickListener{
 		//自定义弹出窗
 		Button dialogbtn = (Button) findViewById(R.id.custom_dialog_btn);
 		dialogbtn.setOnClickListener(this);
+		//树
+		Button treebtn = (Button) findViewById(R.id.tree_btn);
+		treebtn.setOnClickListener(this);
 		
 	}
 
@@ -42,6 +48,9 @@ public class MainActivity extends Activity implements OnClickListener{
 		Log.i("Other","CustomDialog");
 		if(id==R.id.custom_dialog_btn){
 			showCustomDialog();
+		}else if(id==R.id.tree_btn){
+			Log.i("Other","tree_btn");
+			showTree();
 		}
 		
 		
@@ -86,6 +95,13 @@ public class MainActivity extends Activity implements OnClickListener{
 		customDialog.setCancelable(false);
 		customDialog.show();
 		
+	}
+	
+	public void showTree(){
+		
+		Intent intent = new Intent(this,TreeActivity.class);
+		Log.i("Other","tree_btn");
+		startActivity(intent);
 		
 	}
 }
